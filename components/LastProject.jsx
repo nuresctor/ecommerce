@@ -10,36 +10,37 @@ const LastProject = () => {
   }
 
   const styles = {
-    card: {
-      border: '1px solid #eeeeee',
-      borderRadius: '3px',
-      padding: '15px',
-      width: '250px'
-    },
+    // card: {
+    //   border: '1px solid #eeeeee',
+    //   borderRadius: '3px',
+    //   padding: '15px',
+    //   width: '250px'
+    // },
     image: {
-      height: '200px',
-      width: '250px'
+      height: 'auto',
+      width: '100%'
     }
   };
 
   return (
     <ReactCardFlip isFlipped={isFlipped}>
-        <div style={styles.card}>
+        <div >
           <img
             style={styles.image}
-            src="//static.pexels.com/photos/59523/pexels-photo-59523.jpeg"
+            src="/bebida_front.jpg"
+            onClick={handleClick}
           />
 
-          <button onClick={handleClick}>Flip Card</button>
+          
         </div>
 
-        <div style={styles.card}>
+        <div >
           <img
             style={styles.image}
-            src="//img.buzzfeed.com/buzzfeed-static/static/2014-04/enhanced/webdr06/4/16/enhanced-11136-1396643149-13.jpg?no-auto"
+            src="/bebida_back.jpg"
+            onClick={handleClick}
           />
 
-          <button onClick={handleClick}>Flip Card</button>
         </div>
       </ReactCardFlip>
   );

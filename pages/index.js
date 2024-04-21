@@ -1,11 +1,19 @@
 import React from 'react';
 
 import { client } from '../lib/client';
-import { Product, HeroBanner } from '../components';
+import { Product, HeroBanner, LastProject } from '../components';
 
 const Home = ({ products, bannerData }) => (
   <div>
+
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
+
+    <div className="products-heading">
+      <h2>Last project </h2>
+      <p>speaker There are many variations passages</p>
+      <LastProject/>
+    </div>
+
     <div className="products-heading">
       <h2>Our products </h2>
       <p>speaker There are many variations passages</p>
