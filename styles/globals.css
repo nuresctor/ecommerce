@@ -141,6 +141,9 @@ width: 100%;
 .hero-banner-container .beats-solo{
   font-size: 20px;
 }
+
+
+
 .hero-banner-container button{
    border-radius: 15px;
   padding: 10px 16px;
@@ -155,8 +158,9 @@ width: 100%;
 }
 
 .hero-banner-container h3{
-  font-size: 4rem;
+  font-size: 2.5rem;
   margin-top: 4px;
+  margin-right: 550px;
 }
 .hero-banner-container h1{
   color: white;
@@ -166,8 +170,8 @@ width: 100%;
 }
 .hero-banner-image{
   position: absolute;
-  top: 0%;
-  right:20%;
+  top: 5%;
+  right:10%;
   width: 450px;
   height: 450px;
 }
